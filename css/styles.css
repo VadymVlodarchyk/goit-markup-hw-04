@@ -52,7 +52,7 @@ a  {text-decoration: none;}
 
 .header-container {
     display: flex;
-    background-image:
+}
     
 
 .header-navigation {
@@ -159,7 +159,15 @@ a  {text-decoration: none;}
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: 
+  linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
+    url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
+
+
 
 .hero-title {
     text-align: center;
@@ -221,6 +229,7 @@ a  {text-decoration: none;}
 .values-item:not(:last-child) {
     margin-right: 24px;
 }
+
 
 .values-item {
     width: 264px;
