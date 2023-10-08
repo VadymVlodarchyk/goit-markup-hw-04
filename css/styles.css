@@ -77,6 +77,14 @@ a  {text-decoration: none;}
     margin-right: 40px;
     }
 
+.header-list-after::after {
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 4%;
+    color: #404BBF;
+}
+
         
 .header-link-studio {
     color: #2E2F42;
@@ -206,13 +214,13 @@ a  {text-decoration: none;}
     box-sizing: border-box;
     }
 
-.oder-servise-btn:hover {
-    color: #404bbf; background-color: #404BBF
+.oder-servise-btn:hover,:focus {
+    background-color: #404BBF
 }
 
-.oder-servise-btn:focus {
-    color: #404bbf; background-color: #404BBF
-}
+/* .oder-servise-btn:focus {
+    background-color: #404BBF
+} */
 /* --------------------------------values---------------------------------- */
 .values {
     background-color: white;
@@ -314,6 +322,7 @@ margin-right: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     }
 
 .our-team-name {
@@ -346,6 +355,38 @@ margin-right: 24px;
     background-color: white;
 }
 
+.our-team-soc-list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.our-team-soc-link{
+display: flex;
+
+}
+
+.our-team-soc-item:not(:last-child){
+    margin-right: 24px;
+}
+    
+
+.our-team-soc-item{
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team-soc-item:hover {
+    background-color: #31D0AA;
+}
+
+.our-team-soc-icon{
+    fill: #fff;
+}
 
 
 /* ____________________________portfolio_______________________--_*/
@@ -418,8 +459,6 @@ margin-right: 24px;
     padding-top: 100px;
     padding-bottom: 100px;}
 
-.footer-link {}
-
 .footer-link {
     color: #4D5AE5;
     font-size: 18px;
@@ -457,4 +496,57 @@ margin-right: 24px;
     }
 
 
+
+.footer-block {
+    display: flex;
+}
+
+.footer-left-block {
+    margin-right: 120px;
+}
+
+.footer-soc-title{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+
+.footer-soc-list{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-soc-link {
+    display: flex;
+}
+
+
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-soc-item:hover,:focus {
+    background-color: #31D0AA;
+}
+
+
+
+.footer-soc-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.footer-soc-icon {
+    fill: #fff;
+}
 /* =====================================================*/
