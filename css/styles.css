@@ -550,6 +550,8 @@ display: flex;
 
 .footer-block {
     display: flex;
+    align-items: baseline,
+    /* 1 */
 }
 
 .footer-left-block {
@@ -571,10 +573,12 @@ display: flex;
 .footer-soc-list{
     display: flex;
     justify-content: center;
+   
 
 }
 .footer-soc-link {
     display: flex;
+   
 }
 
 
@@ -586,6 +590,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer-soc-item:hover,:focus {
