@@ -78,7 +78,7 @@ a  {text-decoration: none;}
     }
 
 .header-list-item {
-    position: relative;
+    /* position: relative; */
 }
 
 
@@ -89,8 +89,8 @@ a  {text-decoration: none;}
     background-color: #404BBF;
     border-radius: 2px;
     display: block;
-    position: absolute;
-    top: 20px;
+    /* position: absolute;
+    top: 20px; */
 }
 
         
