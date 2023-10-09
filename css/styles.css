@@ -436,7 +436,7 @@ display: flex;
 
 .our-portfolio-item:hover .portfolio-cover-block{
     transform: translateY(0);
-    /* display: ; */
+    
 }
 
 
