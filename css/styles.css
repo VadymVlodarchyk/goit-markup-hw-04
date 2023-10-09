@@ -363,6 +363,7 @@ margin-right: 24px;
 }
 .our-team-item{
     background-color: white;
+    
 }
 
 .our-team-soc-list{
@@ -389,6 +390,7 @@ display: flex;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .our-team-soc-item:hover {
@@ -583,6 +585,7 @@ display: flex;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-soc-item:hover,:focus {
