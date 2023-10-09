@@ -77,12 +77,20 @@ a  {text-decoration: none;}
     margin-right: 40px;
     }
 
+.header-list-item {
+    position: relative;
+}
+
+
 .header-list-after::after {
+    content:'';
     width: 48px;
     height: 4px;
     background-color: #404BBF;
-    border-radius: 4%;
-    color: #404BBF;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    top: 20px;
 }
 
         
