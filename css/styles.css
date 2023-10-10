@@ -412,20 +412,11 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
 }
 
-/* .our-team-soc-item:not(:last-child){
-    margin-right: 24px;
-} */
     
 
 .our-team-soc-item{
     width: 40px;
     height: 40px;
-    /* background-color: #4D5AE5;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* ryyr */
     
 }
 
