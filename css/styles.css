@@ -60,6 +60,9 @@ a  {text-decoration: none;}
 
 .header-navigation {
     align-items: center;
+    position: relative;
+    color: #404bbf;
+    /* up */
 }
         
 .header-navigation-link {
@@ -81,8 +84,7 @@ a  {text-decoration: none;}
     }
 
 .header-list-item {
-    position: relative;
-    color: #404bbf;
+    
     
 }
 
