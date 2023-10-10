@@ -95,7 +95,7 @@ a  {text-decoration: none;}
     color: #404bbf;
 }
 
-.header-list-after::after{
+.header-list-link::after{
     content: '';
     position: absolute;
     width: 48px;
