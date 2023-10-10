@@ -91,10 +91,10 @@ a  {text-decoration: none;}
     }
 
     
-.header-list-first{
-    position: relative;
+.header-list-after{
+    /* position: relative;
     color: #404bbf;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-list-link::after{
@@ -121,6 +121,9 @@ a  {text-decoration: none;}
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    position: relative;
+        color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
                 
 
