@@ -86,13 +86,15 @@ a  {text-decoration: none;}
     }
 
 .header-list-item {
+    position: relative;
+    color: #404bbf;
 
 }
     
     
 .header-list-after{
-    position: relative;
-    color: #404bbf;
+    /* position: relative;
+    color: #404bbf; */
 }
 
 .header-list-link::after{
@@ -107,18 +109,6 @@ a  {text-decoration: none;}
     border-radius: 2px;
 }
 
-
-
-/* .header-list-after::after {
-    content:'';
-    width: 48px;
-    height: 4px;
-    background-color: #404BBF;
-    border-radius: 2px;
-    display: block;
-    
-
-} */
 
         
 .header-link-studio {
